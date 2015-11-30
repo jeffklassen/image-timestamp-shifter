@@ -1,0 +1,15 @@
+{
+  "name": "timestamp-shift",
+  "version": "0.0.1",
+  "description": "Shifts timestamps by a given amount for a (sub)set of photos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jeff",
+  "license": "ISC",
+  "dependencies": {
+    "exif": "^0.4.0",
+    "path-exif-mapper": "^0.2.0"
+  }
+}
