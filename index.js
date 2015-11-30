@@ -1,9 +1,12 @@
+var shiftTimestamp = require('./lib/shiftTimestamp');
+
 var options = {
-	shiftAmount: '',
-	rootDir: '/samle/dir',
+	shiftAmount: -20820,
+	rootDir: '/Volumes/My Passport/tmp',
 	includedPhotosFilter: function(exif)
 	{
-		return true
+		return true;
 	}
-	
 }
+
+shiftTimestamp(options);

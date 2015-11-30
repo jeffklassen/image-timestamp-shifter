@@ -9,7 +9,7 @@
   "author": "jeff",
   "license": "ISC",
   "dependencies": {
-    "exif": "^0.4.0",
-    "path-exif-mapper": "^0.2.0"
+    "piexifjs": "^1.0.0",
+    "strftime": "^0.9.2"
   }
 }
